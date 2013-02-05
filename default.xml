@@ -5,6 +5,9 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch="http://git.android-x86.org" />
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.org" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="1" />
