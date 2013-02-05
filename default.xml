@@ -17,7 +17,7 @@
            sync-j="4" />
 
   <remote  name="x86"
-           fetch="git.android-x86.org" />
+           fetch="git://android-x86.git.sf.net" />
  
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" remote="x86" revision="ics-x86">
