@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch=".." />
+  <remote  name="github"
+           fetch="https://github.com"
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -228,6 +230,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote"github" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
