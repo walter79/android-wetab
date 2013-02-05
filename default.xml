@@ -3,24 +3,15 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  
   <remote  name="x86"
            fetch="http://git.android-x86.org" />
-
-  <remote  name="github"
+  <remote name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+  <default revision="refs/tags/android-4.0.4_r2.1"
+           remote="aosp"
+           sync-j="1" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <default revision="refs/heads/ics"
-           remote="x86"
-           sync-c="true"
-           sync-j="4" />
-
- 
-  <!-- from x86 port repositories -->
+ <!-- from x86 port repositories -->
   <project path="build" name="platform/build" remote="x86" revision="ics-x86">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
