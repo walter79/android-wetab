@@ -6,7 +6,7 @@
   <remote  name="x86"
            fetch=".." />
   <remote  name="github"
-           fetch="https://github.com"
+           fetch="https://github.com" />
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
