@@ -7,7 +7,7 @@
            fetch=".." />
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
-           sync-j="1" />
+           sync-j="4" />
 
   <!-- from x86 port repositories -->
   <project path="build" name="platform/build" remote="x86" revision="jb-x86" >
