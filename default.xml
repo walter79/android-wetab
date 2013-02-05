@@ -15,7 +15,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/ics"
-           remote="github"
+           remote="x86"
            sync-c="true"
            sync-j="4" />
 
