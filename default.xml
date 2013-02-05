@@ -7,9 +7,10 @@
            fetch="http://git.android-x86.org" />
   <remote name="github"
            fetch=".."
-  <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="aosp"
-           sync-j="1" />
+  <default revision="refs/heads/ics"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
  <!-- from x86 port repositories -->
   <project path="build" name="platform/build" remote="x86" revision="ics-x86">
