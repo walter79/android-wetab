@@ -10,10 +10,11 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 
 Then to sync up:
 
-    repo sync
+    repo sync 
+    . build/envsetup.sh
+    make -jX iso_img TARGET_PRODUCT=android_x86  (X=Numbers of CPU-Cores)
 
-. build/envsetup.sh
-make -jX iso_img TARGET_PRODUCT=android_x86  (X=Numbers of CPU-Cores)
+
 
 Once done here is the result:
 
