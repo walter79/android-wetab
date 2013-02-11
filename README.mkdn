@@ -1,3 +1,6 @@
+
+
+
 Getting Started
 ---------------
 
@@ -21,4 +24,4 @@ Once done here is the result:
 out/target/product/pegatron/wetab.iso is built successfully.
 
 
-
+More information: http://www.wetab-community.com/index.php?/topic/19765-icsandroid-404-kernel-3036-arm-emulation-minmal-gapps/
