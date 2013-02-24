@@ -16,7 +16,7 @@
   <project path="build" name="platform/build" remote="x86" revision="jb-x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.8" />
+  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.7" />
   <project path="bionic" name="platform/bionic" remote="x86" revision="jb-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="jb-x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" revision="jb-x86" />
