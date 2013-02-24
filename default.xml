@@ -20,10 +20,7 @@
   <project path="bionic" name="platform/bionic" remote="x86" revision="ics-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="ics-x86" />
   <project path="dalvik" name="platform/dalvik" remote="x86" revision="ics-x86" />
-  <project path="device/amd" name="device/amd" remote="x86" revision="ics-x86" />
-  <project path="device/asus" name="device/asus" remote="x86" revision="ics-x86" />
   <project path="device/common" name="device/common" remote="x86" revision="ics-x86" />
-  <project path="device/tegatech/tegav2" name="device/tegatech/tegav2" remote="x86" revision="ics-x86" />
   <project path="device/pegatron/wetab" name="walter79/android_device_wetab" remote="github" revision="ICS" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="ics-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="ics-x86" />
