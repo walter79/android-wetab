@@ -1,6 +1,5 @@
 
 
-
 Getting Started
 ---------------
 
@@ -9,7 +8,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u https://github.com/walter79/android-wetab.git -b ics
+    repo init -u https://github.com/walter79/android-wetab.git -b jb-original
 
 Then to sync up:
 
