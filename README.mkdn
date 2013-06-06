@@ -1,6 +1,5 @@
 
 
-
 Getting Started
 ---------------
 
@@ -16,6 +15,8 @@ Then to sync up:
     repo sync 
     . build/envsetup.sh
     make -jX iso_img TARGET_PRODUCT=android_x86  (X=Numbers of CPU-Cores)
+    
+    "if target android_x86 not work use wetab "
 
 
 
