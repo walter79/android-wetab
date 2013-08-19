@@ -272,7 +272,6 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
@@ -425,18 +424,23 @@
   <project path="device/htc/msm8660-common" name="TeamNightmare/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/htc/leo" name="TeamNightmare/android_device_htc_leo" remote="github" revision="cm-10.2" />
   <project path="device/htc/qsd8k-common" name="TeamNightmare/android_device_htc_qsd8k-common" remote="github" revision="cm-10.2" />
+  <project path="device/lge/mako" name="TeamNightmare/android_device_lge_mako" remote="github" revision="cm-10.2" />
 
   <!-- Kernel Repos -->
   <project path="kernel/htc/leo" name="TeamNightmare/android_kernel_htc_leo" remote="github" revision="3.0_pmem" />
   <project path="kernel/htc/msm8660" name="TeamNightmare/android_kernel_htc_msm8660" remote="github" revision="cm-10.2" />
+  <project path="kernel/lge/mako" name="TeamNightmare/android_kernel_lge_mako" remote="github" revision="cm-10.2" />
 
   <!-- Hardware Repos -->
   <project path="hardware/qcom/audio-legacy" name="TeamNightmare/android_hardware_qcom_audio-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/media-legacy" name="TeamNightmare/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/display-legacy" name="TeamNightmare/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/gps-legacy" name="TeamNightmare/android_hardware_qcom_gps-legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/audio-caf" name="TeamNightmare/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" />
+
   <!-- Vendors -->
   <project path="vendor/htc" name="TeamNightmare/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
+  <project path="vendor/lge" name="TeamNightmare/proprietary_vendor_lge" remote="github" revision="cm-10.2" />
 
   <!-- End TeamNightmare Additions -->
 
