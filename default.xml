@@ -425,3 +425,19 @@
   <project path="device/htc/msm8660-common" name="TeamNightmare/android_device_htc_msm8660-common" remote="github" revision="cm-10.2" />
   <project path="device/htc/leo" name="TeamNightmare/android_device_htc_leo" remote="github" revision="cm-10.2" />
   <project path="device/htc/qsd8k-common" name="TeamNightmare/android_device_htc_qsd8k-common" remote="github" revision="cm-10.2" /></manifest>
+
+  <!-- Kernel Repos -->
+  <project path="kernel/htc/msm8660" name="TeamNightmare/android_kernel_htc_msm8660" remote="github" revision="cm-10.2" />
+  <project path="kernel/htc/leo" name="TeamNightmare/android_kernel_htc_leo" remote="github" revision="3.0_pmem" />
+  
+  <!-- Hardware Repos -->
+  <project path="hardware/qcom/audio-legacy" name="TeamNightmare/android_hardware_qcom_audio-legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/media-legacy" name="TeamNightmare/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/display-legacy" name="TeamNightmare/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/gps-legacy" name="TeamNightmare/android_hardware_qcom_gps-legacy" remote="github" revision="cm-10.2" />
+  
+  <!-- Vendors -->
+  <project path="vendor/htc" name="TeamNightmare/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
+
+  <!-- End TeamNightmare Additions -->
+</manifest>
