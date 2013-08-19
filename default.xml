@@ -427,8 +427,8 @@
   <project path="device/htc/qsd8k-common" name="TeamNightmare/android_device_htc_qsd8k-common" remote="github" revision="cm-10.2" /></manifest>
 
   <!-- Kernel Repos -->
-  <project path="kernel/htc/msm8660" name="TeamNightmare/android_kernel_htc_msm8660" remote="github" revision="cm-10.2" />
   <project path="kernel/htc/leo" name="TeamNightmare/android_kernel_htc_leo" remote="github" revision="3.0_pmem" />
+  <project path="kernel/htc/msm8660" name="TeamNightmare/android_kernel_htc_msm8660" remote="github" revision="cm-10.2" />
   
   <!-- Hardware Repos -->
   <project path="hardware/qcom/audio-legacy" name="TeamNightmare/android_hardware_qcom_audio-legacy" remote="github" revision="cm-10.2" />
