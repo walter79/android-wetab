@@ -242,7 +242,6 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -416,6 +415,9 @@
 
   
   <!-- TeamNightmare Additions -->
+  
+  <!-- Frameworks -->
+  <project path="frameworks/native" name="TeamNightmare/android_frameworks_native" remote="github" revision="cm-10.2" />
 
   <!-- Device Repos -->
   <project path="device/htc/ruby" name="TeamNightmare/android_device_htc_ruby" remote="github" revision="cm-10.2" />
