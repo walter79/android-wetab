@@ -274,7 +274,6 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
@@ -437,6 +436,7 @@
   <project path="hardware/qcom/gps-legacy" name="TeamNightmare/android_hardware_qcom_gps-legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="TeamNightmare/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" />
   <project path="hardware/libhardware" name="TeamNightmare/android_hardware_libhardware" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/gps" name="TeamNightmare/android_hardware_qcom_gps" remote="github" revision="cm-10.2" />
 
   <!-- Vendors -->
   <project path="vendor/htc" name="TeamNightmare/proprietary_vendor_htc" remote="github" revision="cm-10.2" />
