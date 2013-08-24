@@ -415,7 +415,7 @@
   
   <!-- Frameworks -->
   <project path="frameworks/native" name="TeamNightmare/android_frameworks_native" remote="github" revision="cm-10.2" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.2" />
+  <project path="frameworks/av" name="TeamNightmare/android_frameworks_av" remote="github" revision="cm-10.2" />
 
   <!-- Device Repos -->
   <project path="device/htc/ruby" name="TeamNightmare/android_device_htc_ruby" remote="github" revision="cm-10.2" />
